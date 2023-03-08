@@ -93,8 +93,12 @@ body {
 				display: flex;
 				gap: 0.8rem;
 			}
+			.score {
+				color: hsl(217, 15%, 76%);
+			}
 			span {
 				font-weight: 800;
+				color: black;
 			}
 		}
 

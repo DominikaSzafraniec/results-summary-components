@@ -83,8 +83,12 @@ body {
   display: flex;
   gap: 0.8rem;
 }
+.card-box__right--item .score {
+  color: hsl(217, 15%, 76%);
+}
 .card-box__right--item span {
   font-weight: 800;
+  color: black;
 }
 .card-box__right--item-reaction {
   background-color: hsla(0, 100%, 67%, 0.05);
