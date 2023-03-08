@@ -8,8 +8,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 2rem;
   padding: 2rem;
+  min-height: 100vh;
   font-family: "Hanken Grotesk", sans-serif;
 }
 
@@ -118,9 +120,55 @@ body {
   border-radius: 40px;
   font-size: 16px;
   font-weight: 700;
+  font-family: inherit;
   cursor: pointer;
   transition: background-color 0.4s;
 }
 .card-box__right--btn:hover {
   background-color: hsl(225, 30%, 13%);
+}
+
+@media (min-width: 1000px) {
+  .card-box {
+    display: flex;
+    width: 800px;
+  }
+  .card-box__left {
+    padding: 2.8rem 4.2rem;
+    width: 50%;
+  }
+  .card-box__left--title {
+    font-size: 22px;
+  }
+  .card-box__left--circle {
+    height: 200px;
+    width: 200px;
+  }
+  .card-box__left--result {
+    font-size: 70px;
+  }
+  .card-box__left--maxscore {
+    font-size: 14px;
+  }
+  .card-box__left--score {
+    font-size: 26px;
+  }
+  .card-box__left--description {
+    font-size: 18px;
+  }
+  .card-box__right {
+    padding: 2.8rem 2.2rem;
+    width: 50%;
+  }
+  .card-box__right--title {
+    font-size: 22px;
+    margin-bottom: 1.5rem;
+  }
+  .card-box__right--item {
+    font-size: 18px;
+  }
+  .card-box__right--btn {
+    margin: 2.4rem 0 0 0;
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=style.css.map */
